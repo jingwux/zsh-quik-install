@@ -10,4 +10,6 @@ chsh -s /bin/zsh
 
 cp .zshrc ~/.zshrc
 
+sed -i '1i\ZSH_DISABLE_COMPFIX=true' .zshrc
+
 source ~/.zshrc
