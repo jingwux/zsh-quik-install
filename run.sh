@@ -8,8 +8,10 @@ mv .oh-my-zsh ~
 
 cp .zshrc ~/.zshrc
 
-sed -i '1i\ZSH_DISABLE_COMPFIX=true' .zshrc
+sed -i '1i\ZSH_DISABLE_COMPFIX=true' ~/.zshrc
 
 chsh -s /bin/zsh
+
+zsh
 
 source ~/.zshrc
